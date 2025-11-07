@@ -1,11 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>reviews</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lead Sage — Connect & Consult</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>firmamızı tercih ettiğinişz için teşekkür ederiz...</h1>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">GOOGLE REVİEWS</div>
+      <nav class="nav">
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="hero-inner">
+      <section class="hero-text">
+        <h1>Hizmet kalitemizi iyileştirmek için sizden gelen geri bildirimlere önem veriyoruz.</h1>
+        <p class="eyebrow">Google’daki değerlendirmeniz, gelecekteki iş ortaklıklarımız ve hizmetlerimiz için büyük önem taşır. <span class="accent">Bizi Google’da değerlendir</span></p>
+        <p class="lead">Deneyiminizi paylaşarak bize katkı sağlayın.</p>
+
+        <div class="cta-row">
+          <a class="cta cta-appstore" href="#" aria-label="App Store">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden focusable="false"><path fill="currentColor" d="M16.365 1.43c-.87.05-1.95.59-2.58 1.32-.56.66-1.04 1.72-.86 2.73 1.05.07 2.13-.56 2.7-1.27.58-.73 1.05-1.92.74-2.78zM12.7 6.95c-.9-1.04-2.5-1.02-3.46-.02-1.02 1.04-.9 2.88.22 3.92 1.16 1.03 2.78 1 3.63-.03 1.05-1.16 1.06-2.9-.39-3.87zM6 14.8C4.2 14.8 2.7 13.4 2.5 11.6c-1.8 0-3.2 1.7-3.2 3.6 0 3.2 2.4 6.8 6.2 6.8 1.9 0 3.4-.8 4.6-1.7-1.1-1.2-2.6-3-3.1-8.5C6.6 12.2 6 13.5 6 14.8z"/></svg>
+            <div class="cta-text">
+              <span class="small">Değerlendirmeler</span>
+              <strong>Google Reviews</strong>
+            </div>
+          </a>
+
+          <a class="cta cta-googleplay" href="#" aria-label="Google Play">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden focusable="false"><path fill="currentColor" d="M3.4 1.9l12 9.1-12 9.1c-.9-.5-1.4-1.6-1.4-2.8V4.7c0-1.2.6-2.3 1.4-2.8zM21.6 11.9l-4.4-3.3-4.4 3.3 4.4 3.3 4.4-3.3z"/></svg>
+            <div class="cta-text">
+              <span class="small">Daha fazlası</span>
+              <strong>Linkedİn</strong>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="hero-visual" aria-hidden="true">
+        <div id="blob" class="blob"></div>
+      </section>
+    </div>
+  </main>
+
+  <section id="gallery" class="gallery">
+    <div class="wrap">
+      <h2 class="section-title">Gallery</h2>
+      <div class="masonry">
+        <div class="masonry-item" style="--h:220px"></div>
+        <div class="masonry-item" style="--h:320px"></div>
+        <div class="masonry-item" style="--h:260px"></div>
+        <div class="masonry-item" style="--h:360px"></div>
+        <div class="masonry-item" style="--h:240px"></div>
+        <div class="masonry-item" style="--h:300px"></div>
+        <div class="masonry-item" style="--h:200px"></div>
+        <div class="masonry-item" style="--h:280px"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog">
+    <div class="wrap">
+      <h2 class="section-title">Latest from the blog</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-media" aria-hidden="true"></div>
+          <h3>Yeni Reaktör Projemiz</h3>
+          <p>Kimyasal mühendisliğinde inovasyonun gücünü bir kez daha gösterdik.</p>
+        </article>
+        <article class="card">
+          <div class="card-media" aria-hidden="true"></div>
+          <h3>Dijitalleşme Adımlarımız</h3>
+          <p>Google çözümleriyle üretim verimliliğimizi artırıyoruz.</p>
+        </article>
+        <article class="card">
+          <div class="card-media" aria-hidden="true"></div>
+          <h3>Ekibimiz Büyüyor</h3>
+          <p>Yeni mühendislerle geleceğe daha güçlü adımlar atıyoruz.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">© 2025 Lead Sage</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
